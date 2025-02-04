@@ -9,3 +9,10 @@ Esta aplicação permite realizar sorteios de amigo secreto de forma simples e i
 <li>Sorteio aleatório: Ao clicar no botão "Sortear Amigo", a aplicação seleciona aleatoriamente um dos nomes da lista e exibe o resultado na tela.</li>
 
 Com esta aplicação, organizar um amigo secreto ficou mais prático e divertido!
+
+<h3>Tecnologias</h3>
+<div>
+  <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
