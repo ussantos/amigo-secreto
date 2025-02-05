@@ -18,10 +18,10 @@
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Digite o nome dos seus amigos</h2>
+            <h2 class="section-title" id="mensagemNome">Digite o nome do seu amigo.</h2>
             <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
-                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+                <input type="text" class="input-name" placeholder="Digite um nome" id="nomeDigitado">
+                <button class="button-add" id="btnAdicionar" onclick="adicionarAmigoSecreto()">Adicionar</button>
             </div>
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
