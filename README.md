@@ -1,6 +1,8 @@
 <h1>Amigo Secreto</h1>
 
-Esta aplicação permite realizar sorteios de amigo secreto de forma simples e interativa. Com ela, os usuários podem adicionar nomes a uma lista e realizar um sorteio aleatório para determinar quem será o "amigo secreto".
+<p>Esta aplicação permite realizar sorteios de amigo secreto de forma simples e interativa. Com ela, os usuários podem adicionar nomes a uma lista e realizar um sorteio aleatório para determinar quem será o "amigo secreto".</p>
+
+<a href="https://ussantos.github.io/amigo-secreto/">Teste a aplicação agora mesmo.</a>
 
 <h2>Funcionalidades</h2>
 <li>Adicionar nomes: Os usuários podem inserir o nome de um amigo em um campo de texto e adicioná-lo à lista clicando no botão "Adicionar".</li>
