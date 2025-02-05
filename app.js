@@ -3,6 +3,17 @@
 //array para armaznar os nomes dos amigos secretos
 let amigosSecrectos = [];
 
+function mostrarListaAmigos(){
+    //exibe a lista de amigos secretos
+    let listaAmigos = document.getElementById('listaAmigos');
+    let lista = "";
+    for (let i = 0; i < amigosSecrectos.length; i++){
+        lista += `<li>${amigosSecrectos[i]}</li>`;
+    }
+    listaAmigos.innerHTML = lista;
+
+}
+
 //função para adicionar amigos ao array de amigos secretos
 function adicionarAmigoSecreto(){
     //Adiciona o nome fornecido no input ao array de amigos secretos
@@ -16,6 +27,7 @@ function adicionarAmigoSecreto(){
         mensagemNomeValido.innerHTML = "Digite o próximo nome.";
         //limpa o input após adicionar o nome ao array
         nomeFornecido.value = '' ;
+        mostrarListaAmigos();
         
     }
     else {
@@ -23,5 +35,4 @@ function adicionarAmigoSecreto(){
         let mensagemNomeValido = document.getElementById('mensagemNome');
         mensagemNomeValido.innerHTML = "Por favor, digite um nome válido!";
     }
-
 }
